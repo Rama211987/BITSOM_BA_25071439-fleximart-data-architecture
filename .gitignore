@@ -1,0 +1,51 @@
+# ===============================
+# Python related
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pycache/
+*.env
+venv/
+.env/
+*.egg-info/
+
+# ===============================
+# Data files
+# ===============================
+*.csv
+*.tsv
+*.xlsx
+*.db
+*.sqlite
+
+# ===============================
+# MySQL / SQL files (if needed, keep your scripts)
+# ===============================
+# Ignore temporary SQL exports
+*.sql~ 
+*.sql.bak
+
+# ===============================
+# IDE / Editor
+# ===============================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ===============================
+# OS generated files
+# ===============================
+.DS_Store
+Thumbs.db
+*.swp
+*.lock
+*.tmp
+
+# ===============================
+# Logs
+# ===============================
+*.log
+logs/
